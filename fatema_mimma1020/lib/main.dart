@@ -1,7 +1,7 @@
-import 'package:fatema_mimma1020/home_page.dart';
 import 'package:flutter/material.dart';
+import 'package:fatema_mimma1020/container_page.dart';
 
-import 'container_page.dart';
+//import 'package:fatema_mimma1020/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      //theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
       home: ContainerPage(),
     );
